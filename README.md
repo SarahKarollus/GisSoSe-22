@@ -6,7 +6,7 @@
   Github-Page: https://github.com/SarahKarollus/GisSoSe-22/tree/main/Abgabe%201<br>
   <h2> Abgabe 2: </h2> 
   Root-Ordner: <br>
-  Github-Page:<br>
+  Github-Page: https://github.com/SarahKarollus/GisSoSe-22/tree/main/Abgabe%202<br>
   <h2> Abgabe 3: </h2> 
   Root-Ordner: <br>
   Github-Page:<br>
