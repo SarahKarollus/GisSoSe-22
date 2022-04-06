@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 
+container{
+  background-color: beige;
+}
+
 body{
     padding: 10%;
     border: 5px solid rgb(95, 99, 133);
@@ -49,6 +53,8 @@ nav{
     color: white;
   }
 
+  
+
   li a.active {
     background-color: #04AA6D;
     color: white;
@@ -70,6 +76,9 @@ h2{
     
     font-size: 1em;
 }
+#stext::after{
+  content: "  <------blablablablbalbaklablalba";
+}
 img{
     position: absolute;
     left: 43%;
@@ -79,6 +88,9 @@ img{
     height: 10%;
 }
 
+#stext::after{
+  content: "  <------blablablablbalbaklablalba";
+}
 
 #copyright {
   position: absolute;
