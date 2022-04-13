@@ -27,6 +27,29 @@ nav{
   background-color: beige;
 }
 
+.drpbtn{
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+
  ul {
     list-style-type: none;
     margin: 0;
@@ -69,6 +92,8 @@ h1{
     font-size: 2em; 
     font-family: Cinzel;
 }
+
+
 h2{
     font-size: 1em;
 }
@@ -97,13 +122,36 @@ img{
   left: 43%;
   display: inline;
   background-color: beige;
+  width: fit-content;
+  animation: pulse 2s;
+  animation-iteration-count: infinite;
 }
 
 
-@media (min-wirth: 50em) {
+@media (min-width: 50em) {
   article{
       float: left;
       width: 50%;
       display: grid;
   }
 }
+
+
+
+/* 
+:root{
+  --primary: >farbe<;
+  --secondary: >farbe<;
+}
+
+bp: 
+h1{
+  color: var(--primary);
+
+
+
+
+
+
+  https://www.w3schools.com/Css/css_dropdowns.asp
+*/
