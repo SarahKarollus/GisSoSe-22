@@ -71,22 +71,34 @@ nav{
 
  /* Navigation ende */
 
-
-
 p{
   left: 10%;
+}
+h2{
+  font-size: 1em;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 h1{
     font-size: 2em; 
     font-family: Cinzel;
-    
 }
 
 
-h2{
-    font-size: 1em;
-}
+
 #stext{
     
     font-size: 1em;
@@ -95,11 +107,11 @@ h2{
   content: "  <------blablablablbalbaklablalba";
 }
 img{
-    position: absolute;
+    position:sticky;
     left: 43%;
     top: 20%;
     display: inline;
-    width: 5%;
+    width: 10%;
     height: 10%;
 }
 
@@ -115,7 +127,7 @@ img{
 }
 
 
-@media (min-width: 50em) {
+@media (max-width: 100%) {
   article{
       float: left;
       width: 50%;
