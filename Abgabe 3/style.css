@@ -9,7 +9,7 @@ container{
 }
 
 body{
-    padding: 10%;
+    padding: 10%; 
     border: 5px solid var(--secundary);
     margin: 5px;
 }
