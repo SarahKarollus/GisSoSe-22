@@ -9,7 +9,7 @@
   Github-Page: https://sarahkarollus.github.io/GisSoSe-22/<br>
   <h2> Abgabe 3: </h2> 
   Root-Ordner: <br>
-  Github-Page:<br>
+  Github-Page:https://sarahkarollus.github.io/GisSoSe-22/<br>
   <h2> Abgabe 4: </h2> 
   Root-Ordner: <br>
   Github-Page:<br>
