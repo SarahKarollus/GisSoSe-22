@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+:root{
+  --primary: beige;
+  --secundary: rgb(95, 99, 133);
+}
+
+container{
+  background-color: var(--primary);
+}
+
+body{
+    padding: 10%; 
+    border: 5px solid var(--secundary);
+    margin: 5px;
+}
+header{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: var(--primary);
+    width: 100%;
+}
+main{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: var(--primary);
+}
+
+ /* Navigation */
+
+nav{
+  background-color: var(--primary);
+}
+
+.drpbtn{
+  background-color: var(--primary);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: var(--primary)}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: var(--secundary);
+  color:white ;
+}
+
+
+ /* Navigation ende */
+
+p{
+  left: 10%;
+}
+h2{
+  font-size: 1em;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+h1{
+    font-size: 2em; 
+    font-family: Cinzel;
+}
+
+
+
+#stext{
+    
+    font-size: 1em;
+}
+#stext::after{
+  content: "  <------blablablablbalbaklablalba";
+}
+img{
+    position:sticky;
+    left: 43%;
+    top: 20%;
+    display: inline;
+    width: 10%;
+    height: 10%;
+}
+
+
+
+#copyright {
+  position: absolute;
+  left: 43%;
+  display: inline;
+  background-color: var(--primary);
+  width: fit-content;
+  transition: width 2s, height 4s;
+}
+
+
+@media (max-width: 100%) {
+  article{
+      float: left;
+      width: 50%;
+      display: grid;
+  }
+}
+
+
+
+/* 
+Infos:
+
+-   :root{
+      --primary: >farbe<;
+      --secondary: >farbe<;
+    }
+
+    bp: 
+    h1{
+      color: var(--primary);
+
+-  
+*/
