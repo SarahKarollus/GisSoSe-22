@@ -9,6 +9,6 @@ function execute_length(clicked) {
 		if (clicked) alert('Converter error. Conversion not supported by browser.');
 	}
 }
-dRf(function(){
+dRf(function(){ 
 execute_length(false);
-});
+}); 
