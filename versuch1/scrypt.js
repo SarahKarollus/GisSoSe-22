@@ -1,14 +1,32 @@
 /* Funktionalität MUST */
 
-function execute_length(clicked) {
-	if (document.forms && document.forms['conv_length']) {
-		var decimals = getCookie('default_decimals');
-		if (decimals == null) decimals = 2;
-		convert(document.forms['conv_length'].amount.value, document.forms['conv_length'].unit_from.value, document.forms['conv_length'].unit_to.value, 'div_length', true, decimals);
-	} else {
-		if (clicked) alert('Converter error. Conversion not supported by browser.');
-	}
+
+
+ 
+
+if (top.location != location) top.location.href = document.location.href;
+
+var nT = '.';
+var nD = ',';
+
+var dR = [];
+var dRi = 0;
+var dRl = false;
+var p = '';
+var la = 'de';
+var wR = [];
+var wRi = 0;
+
+var lS;
+var pS = [];
+
+function dRf(f) {
+	if (typeof(convert) === "function") f();
+	else dR[dRi++] = f;
 }
-dRf(function(){ 
-execute_length(false);
-}); 
+
+
+
+
+
+
