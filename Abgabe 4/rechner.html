@@ -31,31 +31,27 @@
         <main>
 
             <br>
-            <p>Die Benutzung ist ganz einfach. <br> Einfach nur den gewünschten Wert eingeben und auf Start klicken</p>
+            <p>Die Benutzung ist ganz einfach. <br> Einfach nur den gewünschten Wert eingeben, die Einheit auswählen und
+                auf Start klicken</p>
+            <form>
+                <label>start-wert</label>
+                <input type="number" name="start" id="start">
 
-
-            <form name="rechner" method="post">
-                <label>Start-Wert:</label>
-                <select id="wertA">
-                    <option value="--">Bitte wählen:</option>
-                    <option value="Wa1">Euro</option>
-                    <option value="Wa2">Dollar</option>
-                    <option value="Wa3">Kronen</option>
+                <select id="choice">
+                    <option>Start-Wert</option>
+                    <option value="Dollar">Dollar</option>
+                    <option value="Euro">Euro</option>
                 </select>
-                </label>
-                <label>End-Wert:
-                    <select id="wertB">
-                        <option value="--">Bitte wählen:</option>
-                        <option value="Wb1">Euro</option>
-                        <option value="Wb2">Dollar</option>
-                        <option value="Wb3">Kronen</option>
-                    </select>
-                </label>
+                <label>ziel-wert</label>
+                <input type="number" name="ziel" id="ziel">
 
-                <button type="eingabe">Start</button>
+                <select id="choice">
+                    <option>Ziel-Wert</option>
+                    <option value="Dollar">Dollar</option>
+                    <option value="Euro">Euro</option>
+                </select>
+                <label><input type="submit" value="Rechnen" /><label></label>
             </form>
-
-
         </main>
 
         <footer>
@@ -65,3 +61,5 @@
 </container>
 
 </html>
+
+<!-- So Kommentiert man aus xD -->
